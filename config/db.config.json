@@ -1,0 +1,41 @@
+{
+    "development": {
+        "database": "school",
+        "username": "root",
+        "password": "worksheet8.0",
+        "dialectInfo": {
+            "host": "localhost",
+            "dialect": "mysql"
+        },
+    "pool": {
+        "max": 3,
+        "min": 0,
+        "acquire": 20000,
+        "idle": 10000
+    }
+},
+"test": {
+    "database": "school1",
+    "username": "root1",
+    "password": "worksheet8.0",
+    "dialectInformation": {
+        "dialect": "mysql",
+        "host": "localhost"
+    }
+},
+    "production": {
+        "database": " 6CkuzfI6WA",
+        "username": "6CkuzfI6WA",
+        "password": "KYOLScjm6H",
+      "dialectInformation" : {
+        "host": "remotemysql.com",
+        "dialect": "mysql"
+    },
+    "pool": {
+        "max": 3,
+        "min": 0,
+        "acquire": 20000,
+        "idle": 10000
+        }
+    }
+}
